@@ -988,13 +988,6 @@ FW_VERSIONS = {
       b'\xf1\x00NE1NMFC  AT USA LHD 1.00 1.04 99211-NI000 231219',
     ],
   },
-  HYUNDAI_IONIQ_5_N = HyundaiCanFDPlatformConfig(
-    [
-      HyundaiCarDocs("Hyundai Ioniq 5 N (with HDA II) 2024-25", "Highway Driving Assist II", car_parts=CarParts.common([CarHarness.hyundai_m])),
-    ],
-    CarSpecs(mass=4861 * CV.LB_TO_KG, wheelbase=2.999, steerRatio=12.54),
-    flags=HyundaiFlags.EV,
-  )
   CAR.HYUNDAI_IONIQ_6: {
     (Ecu.fwdRadar, 0x7d0, None): [
       b'\xf1\x00CE__ RDR -----      1.00 1.01 99110-KL000         ',
