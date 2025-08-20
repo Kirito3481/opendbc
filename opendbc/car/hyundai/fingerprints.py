@@ -1056,6 +1056,7 @@ FW_VERSIONS = {
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
       b'\xf1\x00NE1NMFC  AT KOR LHD 1.00 1.04 99211-NI000 231219',
+      b'\xf1\x00NE1NMFC  AT KOR LHD 1.00 1.00 99211-NI010 240712',
       b'\xf1\x00NE1NMFC  AT USA LHD 1.00 1.04 99211-NI000 231219',
     ],
   },
