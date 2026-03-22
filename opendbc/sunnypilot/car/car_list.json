@@ -1546,6 +1546,18 @@
     ],
     "package": "Highway Driving Assist"
   },
+  "Hyundai Ioniq 5 N (with HDA II) 2024-26": {
+    "platform": "HYUNDAI_IONIQ_5",
+    "make": "Hyundai",
+    "brand": "hyundai",
+    "model": "Ioniq 5 N (with HDA II)",
+    "year": [
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "package": "Highway Driving Assist II"
+  },
   "Hyundai Ioniq 6 (with HDA II) 2023-24": {
     "platform": "HYUNDAI_IONIQ_6",
     "make": "Hyundai",

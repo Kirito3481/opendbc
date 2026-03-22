@@ -5,6 +5,8 @@ BO_ 53 ACCELERATOR: 32 XXX
  SG_ COUNTER : 16|8@1+ (1,0) [0|255] "" XXX
  SG_ ACCELERATOR_PEDAL : 40|8@1+ (1,0) [0|255] "" XXX
  SG_ GEAR : 192|3@1+ (1,0) [0|7] "" XXX
+ SG_ RPM : 239|16@0+ (1,0) [0|8191] "" XXX
+ SG_ N_ESHIFT_ACTIVE : 248|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 64 GEAR_ALT: 32 XXX
  SG_ CHECKSUM : 0|16@1+ (1,0) [0|65535] "" XXX
@@ -805,7 +807,7 @@ CM_ SG_ 1041 COUNTER_ALT "only increments on change";
 CM_ BO_ 1043 "Lamp signals do not seem universal on cars that use LKAS_ALT, but stalk signals do.";
 CM_ SG_ 1043 COUNTER_ALT "only increments on change";
 CM_ SG_ 1043 USE_ALT_LAMP "likely 1 on cars that use alt lamp signals";
-VAL_ 53 GEAR 0 "P" 5 "D" 6 "N" 7 "R";
+VAL_ 53 GEAR 0 "P" 4 "S" 5 "D" 6 "N" 7 "R";
 VAL_ 64 GEAR 0 "P" 5 "D" 6 "N" 7 "R";
 VAL_ 69 GEAR 0 "P" 5 "D" 6 "N" 7 "R";
 VAL_ 96 TRACTION_AND_STABILITY_CONTROL 0 "On" 5 "Limited" 1 "Off";
